@@ -5,9 +5,14 @@
     flex-direction: column;
     justify-content: center;
 }
-
 @media print {
-    .voorpagina {
-        page-break-after: always;
-    }
+   
+
+        nav {
+            display: none;
+        }
+        strong{
+            display: none;
+        }
+
 }
