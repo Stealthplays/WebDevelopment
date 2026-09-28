@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>3 – Verslag HTML deel 2</title>
+    <link rel="stylesheet" href="../voorpagina.css">
+</head>
+<body>
+
+<div class="voorpagina">
+    <h1>3 – Verslag HTML deel 2</h1>
+
+    <p>Arno Daffue</p>
+    <p>groep 1Tib bachelor in de toegepaste informatica</p>
+    <p>Web development academiejaar 2026-2027</p>
+
+    <strong class="no_print">
+        <a href="../index.html">Back</a>
+    </strong>
+
+    <nav class="no_print">
+        <label for="opdrachten">Ga naar opdracht:</label>
+
+        <select id="opdrachten" onchange="location.href=this.value;">
+            <option value="#Opdracht_1">Opdracht 1</option>
+            <option value="#Opdracht_2">Opdracht 2</option>
+            <option value="#Opdracht_3">Opdracht 3</option>
+            <option value="#Opdracht_4">Opdracht 4</option>
+            <option value="#Opdracht_5">Opdracht 5</option>
+            <option value="#Opdracht_6">Opdracht 6</option>
+            <option value="#Opdracht_7">Opdracht 7</option>
+        </select>
+    </nav>
+</div>
+
+
+<div class="verslag">
+
+    <section style="break-inside: avoid">
+        <h2 id="Opdracht_1">Opdracht 1</h2>
+
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="nl"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Browser default heading styles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Heading 1 (h1)&lt;/h1&gt;
+    &lt;h2&gt;Heading 2 (h2)&lt;/h2&gt;
+    &lt;h3&gt;Heading 3 (h3)&lt;/h3&gt;
+    &lt;h4&gt;Heading 4 (h4)&lt;/h4&gt;
+    &lt;h5&gt;Heading 5 (h5)&lt;/h5&gt;
+    &lt;h6&gt;Heading 6 (h6)&lt;/h6&gt;
+
+    &lt;p&gt;
+        &lt;a href="http://www.htmldog.com/examples/"&gt;
+            &lt;img src="http://www.htmldog.com/badge1.gif" alt="HTML Dog"&gt;
+        &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+
+        <p>de img is een kind van a en a is een kind van p en p is een kind van body en body is een kind van html</p>
+        <p>de lijntjes komen overeen als het op dezelfde niveau light kind van het hetzelfde parent er liggen lijntjes tussen als het de kind is zoals bij de img en de a</p>
+    </section>
+
+    <section style="break-inside: avoid">
+        <h2 id="Opdracht_2">Opdracht 2</h2>
+        <img src="Foto's/Opdracht%202.png" alt="" width="700">
+        <p>je verandert de broncode en de pagina wordt verandert bij refresh is dit weg</p>
+    </section>
+
+    <section style="break-inside: avoid">
+        <h2 id="Opdracht_3">Opdracht 3</h2>
+        <p>er komt in de attributen een selected = true dan klapt hij open en de andere sluit omdat hij die atribuut verliest</p>
+        <p>er worden attributen toegevoegd met javascript</p>
+    </section>
+
+    <section style="break-inside: avoid">
+        <h2 id="Opdracht_4">
+            <a href="Homepage.html">Opdracht 4: Homepage</a>
+        </h2>
+
+        <pre class="print_only">
+&lt;h2&gt;Persoonlijke informatie&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;Arno Daffue&lt;/li&gt;
+    &lt;li&gt;Burg 4 bus 8 Torhout&lt;/li&gt;
+    &lt;li&gt;0475496004&lt;/li&gt;
+    &lt;li&gt;Arnodaffue@gmail.com&lt;/li&gt;
+    &lt;li&gt;&lt;img src="Foto's/Opdracht%204.png" alt=""&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li style="list-style-type: none"&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Gaming&lt;/li&gt;
+            &lt;li&gt;gamen op de pc&lt;/li&gt;
+            &lt;li&gt;&lt;a href="https://store.steampowered.com/"&gt;Steam&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li style="list-style-type: none"&gt;&lt;h3&gt;Favorite games&lt;/h3&gt;&lt;/li&gt;
+    &lt;li&gt;Resident evil 0-10&lt;/li&gt;
+    &lt;li style="list-style-type: none"&gt;
+        &lt;a href="https://www.residentevil.com/veronica/en-us/"&gt;
+            &lt;img src="Foto's/Opdracht%204.1.png" alt="" width="500"&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+        </pre>
+    </section>
+    <section style="break-inside: avoid">
+        <h2 id="Opdracht_5">
+            <a href="Homepage.html">Opdracht 5: Table</a>
+        </h2>
+    </section>
+
+</div>
+
+</body>
+</html>
