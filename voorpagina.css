@@ -5,14 +5,16 @@
     flex-direction: column;
     justify-content: center;
 }
+.print_only{
+    display: none;
+}
 @media print {
-   
 
-        nav {
+        .no_print{
             display: none;
         }
-        strong{
-            display: none;
+        .print_only{
+            display: contents;
         }
 
 }
